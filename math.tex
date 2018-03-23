@@ -1,0 +1,65 @@
+\documentclass{article}
+\author{Bruno Berastain}
+\usepackage{amsmath, amssymb, amsthm}
+
+\begin{document}
+\title{Playing With Latex}
+\maketitle
+
+\section{Deriving the Quadratic Forumla}
+% the spacing between one line and the next is too close
+% either fix that or do a left/right align
+	Start with the general formula for a quadratic equation\\
+	
+	\(ax^2 +bx+c = 0\)\\
+
+	Divide by \(a\)\\
+
+	\(x^2 + \frac{b}{a}x + \frac{c}{a} = 0\)\\
+
+	Subtract \(\frac{c}{a}\) from both sides\\
+
+	\(x^2 + \frac{b}{a}x = -\frac{c}{a}\)\\
+
+	Complete the square\\
+
+	\(x^2 + \frac{b}{a}x + \frac{b^2}{4a^2} = \frac{b^2}{4a^2} - \frac{c}{a}\)\\
+
+	Factor on the left, find a common denominator on the right\\
+
+	\((x + \frac{b}{2a})^2 = \frac{b^2}{4a^2} - \frac{4ac}{4a^2}\)\\
+
+	Take the square root of both sides\\
+
+	\(x + \frac{b}{2a} = \pm\sqrt{\frac{b^2 - 4ac}{4a^2}}\)\\
+
+	Subtract \(\frac{b}{2a}\) from both sides\\
+
+	\(x = -\frac{b}{2a} \pm\frac{\sqrt{b^2 - 4ac}}{\sqrt{4a^2}}\)\\
+
+	And reorganize\\
+
+	\(x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}\)\\
+
+\section{Deriving Trigonometric Identities}
+	Start with the identity\\
+\begin{equation}
+	\sin^2(\theta) + \cos^2(\theta) = 1
+\end{equation}	
+	Divide both sides by \(\cos^2(\theta)\)\\
+
+	\(\frac{\sin^2(\theta)}{\cos^2(\theta)} + \frac{\cos^2(\theta)}{\cos^2(\theta)} = \frac{1}{\cos^2(\theta)}\)\\
+\begin{equation}
+	\tan^2(\theta) + 1 = \sec^2(\theta)
+\end{equation}
+	Alternatively, start with the same identity and divide both sides by \(\sin^2(\theta)\)\\
+	
+	\(\frac{\sin^2(\theta)}{\sin^2(\theta)} + \frac{\cos^2(\theta)}{\sin^2(\theta)} = \frac{1}{\sin^2(\theta)}\)\\
+\begin{equation}
+	1 + \cot^2(\theta) = \csc^2(\theta)
+\end{equation}
+
+	Pythagorean Theorem
+	\(a^2 + b^2 = c^2\)
+	
+\end{document}
