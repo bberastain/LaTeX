@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.24)  23 MAR 2018 04:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.24)  23 MAR 2018 16:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -508,7 +508,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--28
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
 
  []
 
@@ -522,7 +522,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.44   \(
+l.50   \(
          \sqrt{(x_{1}-x_{2})^2 + (y_{1}-y_{2})^2}\)
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -535,21 +535,21 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.44 ...\sqrt{(x_{1}-x_{2})^2 + (y_{1}-y_{2})^2}\)
+l.50 ...\sqrt{(x_{1}-x_{2})^2 + (y_{1}-y_{2})^2}\)
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--48
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.49 ...^2 + (y_{1}-y_{2})^2 + (z_{1} - z_{2})^2\)
+l.55 ...^2 + (y_{1}-y_{2})^2 + (z_{1} - z_{2})^2\)
                                                    and you could visualize t...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -564,7 +564,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.51 \(
+l.57 \(
        \sqrt{(x_{1}-y_{1})^2 + (x_{2}-y_{2})^2 + \cdots + (x_{n}-y_{n})^2}\)
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -577,7 +577,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.51 ...{2}-y_{2})^2 + \cdots + (x_{n}-y_{n})^2}\)
+l.57 ...{2}-y_{2})^2 + \cdots + (x_{n}-y_{n})^2}\)
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -585,13 +585,13 @@ or  <return>  to continue without it.
 
 [2] (./ML.aux) ) 
 Here is how much of TeX's memory you used:
- 12329 strings out of 493029
- 243073 string characters out of 6136234
- 282389 words of memory out of 5000000
- 15628 multiletter control sequences out of 15000+600000
+ 12330 strings out of 493029
+ 243090 string characters out of 6136234
+ 283390 words of memory out of 5000000
+ 15629 multiletter control sequences out of 15000+600000
  10888 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,6n,54p,703b,559s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,6n,54p,717b,559s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
@@ -601,7 +601,7 @@ ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmsy10.pfb>
-Output written on ML.pdf (2 pages, 97407 bytes).
+Output written on ML.pdf (2 pages, 97662 bytes).
 PDF statistics:
  50 PDF objects out of 1000 (max. 8388607)
  36 compressed objects within 1 object stream
